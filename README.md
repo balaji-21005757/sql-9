@@ -1,4 +1,4 @@
-## Experiment 9
+## Experiment 22
 ## Aim:
 To implement ROLLUP function.
 
@@ -42,5 +42,8 @@ SELECT COALESCE(country, 'GRAND TOTAL' ) AS country, SUM(salary) AS "Total Salar
 FROM EMPLOYEE  
 GROUP BY ROLLUP (country); 
 ```
+## Output
+![image](https://github.com/balaji-21005757/sql-9/assets/94372294/92b91b48-d9a8-4957-994c-e96f3bd87893)
+
 ## Result:
 Therefore we have successfully implemented ROLLUP function.
